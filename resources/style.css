@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    /*background: url(newbackground.jpg);*/
+    background-color:#D3D3D3;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    min-height: 100%;
+}
+
+/* Ardeu Logo */
+#logo{
+    box-shadow: 2px 2px 3px 2px black;
+    border-radius: 60px;
+    display: block;
+    width: 7%;
+    height: 7%;
+    margin: 6px;
+}
+
+#banner{
+  position:absolute;
+  top:0;
+  width:32%;
+  left:34%;
+}
+
+#video{
+  position:absolute;
+  margin-top:4%;
+  left:30%;
+  width:40%;
+  height:50%;
+}
+
+header {
+  padding-top: 10px;
+  background-color:#171717;
+}
+
+
+/* Menu Bar */
+#homebar{
+    height: 27px;
+    background-color:#79a9f7;
+}
+
+/* Each item in Menu Bar */
+#homebar li {
+  display: inline-block;
+  padding-left:1.5%;
+  padding-right:1.5%;
+  font-variant: small-caps;
+}
+
+#homebar a {
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+}
+
+/* Animation when an item is hovered over */
+#homebar a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#homebar li:hover{
+  background-color:#171717;
+}
+
+#homebar li:hover a{
+  color:#79a9f7;
+}
+
+
+#homebar #profilebutton{
+  margin-left:30%;
+}
+
+#loginbutton{
+  margin-left:25%;
+}
+
+
+/* Left side bar */
+#leftsidebar{
+    border-radius: 25px;
+    width: 13%;
+    position: absolute;
+    height: 90%;
+    border-radius: 25px;
+    padding:1%;
+    margin:2%;
+    font-size: 14px;
+    background-color:#171717;
+}
+
+/* Right side bar */
+#rightsidebar{
+    width:13%;
+    position: absolute;
+    height: 90%;
+    background-color:#171717;
+    border-radius: 25px;
+    padding:1%;
+    margin:2%;
+    margin-left:83%;
+    font-size: 14px;
+}
+
+#sidebaritem{
+  color: #79a9f7;
+  height:8%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p#sidebaritem:hover {
+  font-weight: bold;
+  cursor: pointer;
+  background-color:#79a9f7;
+  color:#171717;
+}
+
+
+#centerMedia{
+    position:absolute;
+    width:56%;
+    height:90%;
+    padding-right: 200px;
+}
+
+footer{
+    font-family: 'Days One', sans-serif;
+    font-size: 14px;
+    height: 3%;
+    background-color:#171717;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    color:#79a9f7;
+}

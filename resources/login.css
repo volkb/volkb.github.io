@@ -1,0 +1,56 @@
+body{
+  color: black;
+}
+
+.login {
+	position: absolute;
+	top: 30%;
+  margin-left:36.5%;
+  margin-right:37.5%;
+	width:25%;
+	height:300px;
+}
+
+input {
+	width: 100%;
+	margin-bottom: 10px;
+	background-color:#171717;
+	padding: 10px;
+	font-size: 13px;
+	color:#79a9f7;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+}
+
+.value{
+  text-align:center;
+}
+
+#save{
+  width:50%;
+  margin-left:25%;
+}
+
+fieldset{
+  border:none;
+}
+
+h2{
+  text-align:center;
+  font-weight: bold;
+}
+
+#status{
+  text-align:center;
+  font-weight: bold;
+}
+
+h3{
+  text-align:center;
+}
+
+.field{
+  color: black;
+  font-weight: bold;
+}

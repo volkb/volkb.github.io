@@ -1,0 +1,62 @@
+input {
+	width: 100%;
+	margin-bottom: 10px;
+	background-color:#171717;
+	padding: 10px;
+	font-size: 13px;
+	color:#79a9f7;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+}
+
+textarea {
+	width: 100%;
+	margin-bottom: 10px;
+	background-color:#171717;
+	padding: 10px;
+	font-size: 13px;
+	color:#79a9f7;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+}
+
+body{
+ 	color: black;
+}
+
+.feedbackPage {
+	position: absolute;
+	top: 30%;
+  	margin-left:36.5%;
+  	margin-right:37.5%;
+	width:25%;
+	height:300px;
+}
+
+
+.value{
+  	text-align:center;
+}
+
+#save{
+  	width:50%;
+  	margin-left:25%;
+}
+
+fieldset{
+  	border:none;
+}
+
+#noName{
+	text-align:center;
+	font-weight:bold;
+	font-size:22px;
+}
+
+
+.field{
+  	color: black;
+  	font-weight: bold;
+}
